@@ -3,7 +3,7 @@
     --secondary: #e03a3c;
     --third: #fff;
     --fourth: #1b1b1b;
-
+    --fifth: #2b2b2b;
 }
 
 body{
@@ -11,13 +11,14 @@ body{
 }
 
 .title{    
-    font-size: 32px;
+    font-size: 2em;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
     text-align: center;
     color: var(--primary);
+    padding-top: 150px;
 }
 
 .title::after{
@@ -32,27 +33,29 @@ body{
 }
 
 .subtitle{
-    padding-top: 20px;
+    padding-top: 1,3em;
     width: 1250px;
     text-align: center;
     color: var(--primary);
-    margin-left: 17%;
+    margin-left: 17vw;
 }
 
 .content{
     background: var(--fourth);
     width: 100vw;
-    height: 1000px;
+    height: 900px;
     transform: skewY(-3deg);
 }
  
 .title2{
+    font-size: 2em;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
     text-align: center;
     color: var(--third);
+
 }
 .title2::after{
     content: "";
@@ -66,14 +69,146 @@ body{
 }
 
 .subtitle2{
-    padding-top: 20px;
+    font-size: 1,3em;
     width: 1250px;
     text-align: center;
     color: var(--third);
-    margin-left: 17%;
+    margin-left: 17vw;
 }
 
 .penche{
     transform: skewY(3deg);
     padding-top: 50px;
 }
+
+.affiche{
+    transform: skewY(3deg);
+    height: 500px;
+    width: 1300px;
+    margin: 5% 0% 0% 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 20px;
+}
+
+.grey{
+    background: var(--fifth);
+    width: 416px;
+    border-radius: 15px;
+    text-align: center;
+}
+.red{
+    background: var(--secondary);
+    width: 416px;
+    border-radius: 15px;
+    text-align: center;
+}
+.condition{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 30px;
+}
+
+.dollar{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+.price{
+    font-size: 40px;
+    color: var(--third);
+
+}
+.month{
+    font-size: 20px;
+    line-height: 70px;
+    color: var(--third);
+}
+
+.para1{
+    color: var(--third);    
+}
+
+.para2{
+    color: var(--primary);  
+    text-decoration: line-through;  
+}
+
+.buy{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--third);
+    font-weight: 600;
+    padding: 10px 40px 12px 40px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.buy:hover{
+    border: 2px solid #fff;
+}
+
+h4{
+    color: white;
+    padding-top: 30px;
+}
+
+.accordion{
+    width: 1200px;
+    margin-left: 17vw;
+    
+}
+.accordion-item{
+    border: var(--bs-accordion-border-color);
+}
+
+.content2{
+    background: var(--fourth);
+    width: 100vw;
+    height: 750px;
+    transform: skewY(-3deg);
+    margin-top: 150px;
+}
+.content3{
+    margin-top: -500px;
+}
+.cardsphoto{
+    display: flex;
+    justify-content: space-around;
+}
+    
+.social{
+    margin-left: 50px;
+    margin-top: -50px;
+    width: 160px ;
+    display: flex;
+    justify-content: space-between;}
+.logosocial{
+    background-color: red;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;}
+.tailletwitter{
+    height: 23px;
+    width: 23px;
+    margin-left: 6px;
+    margin-top: 5px;}
+.taillefb{
+    height: 18px;
+    width: 18px;
+    margin-left: 9px;
+    margin-top: 7px;}
+.tailleinsta{
+    height: 23px;
+    width: 23px;
+    margin-left: 6px;
+    margin-top: 7px;}
+.taillelinkedin{
+    height: 23px;
+    width: 23px;
+    margin-left: 6px;
+    margin-top: 5px;}
+
